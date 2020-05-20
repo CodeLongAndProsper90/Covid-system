@@ -2,16 +2,22 @@
   <head>
     <title>Signup Page</title>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="passwords.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="stylesheets/global.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/signup.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>Signup Page</h1>
+    <ul>
+      <li id="navbar"><a href="index.html">Home</a></li>
+      <li id="navbar"><a href="about.html">About</a></li>
+      <li id="navbar"><a href="login.html" style="float: right;">Login</a></li>
+    </ul>
+    <h1>Register now!</h1>
     <form>
-      <span class="glyphicon glyphicon-user"></span><input type="text" name="username" placeholder="Username"><br>
-      <span class="glyphicon glyphicon-lock"></span><input type="password" name="password" placeholder="Password">
+      <span class="glyphicon glyphicon-user"></span><input type="text" name="username" placeholder="Username" id="signup_username"><br>
+      <span class="glyphicon glyphicon-lock"></span><input type="password" name="password" placeholder="Password" id="signup_username">
     </form>
-    <button onclick="">Register</button>
+    <button onclick="a">Register</button>
   </body>
 </html>
