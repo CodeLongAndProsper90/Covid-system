@@ -5,7 +5,8 @@ a {
   text-decoration: none;
 }
 button {
-  border
+  border-radius: 25%;
+  border-style: solid;
 }
 button a {
   color: inherit;
